@@ -1,0 +1,62 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f4f6fb;
+  margin: 0;
+}
+
+.nav {
+  background: #6c63ff;
+  padding: 10px;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn, .btn-small {
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  cursor: pointer;
+  margin: 8px 4px 0 0;
+}
+
+.btn-small {
+  padding: 6px 10px;
+  font-size: 0.9em;
+}
+
+.auth-container, .wallet-card, .feed-container, .game-section, .chat-section, .profile-section {
+  background: #fff;
+  margin: 24px auto;
+  padding: 24px;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  max-width: 420px;
+}
+
+.input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+.error {
+  color: #c00;
+  margin-bottom: 8px;
+}
+
+.post-card {
+  border-bottom: 1px solid #eee;
+  padding: 12px 0;
+}
